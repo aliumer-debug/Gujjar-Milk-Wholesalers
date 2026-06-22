@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujjar Milk Wholesales | Premium B2B Dairy Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        milkCream: '#FDFBF7',
+                        milkPure: '#F4FAFC',
+                        brandBlue: '#0EA5E9',
+                        brandNavy: '#0F172A',
+                        whatsappGreen: '#22C55E'
+                    },
+                    animation: {
+                        'bounce-slow': 'bounce 3s infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+        body.urdu-active {
+            font-family: 'Noto Nastaliq Urdu', 'Arial', sans-serif;
+            direction: rtl;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        .dark .glassmorphism {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .milk-gradient {
+            background: linear-gradient(135deg, #F4FAFC 0%, #E0F2FE 100%);
+        }
+        .dark .milk-gradient {
+            background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+        }
+    </style>
+</head>
+<body class="bg-milkCream text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-brandBlue selection:text-white">
+
+    <!-- Top Premium Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 px-4 sm:px-8 pt-4">
+        <div class="max-w-7xl mx-auto glassmorphism rounded-2xl shadow-xl shadow-slate-100/40 dark:shadow-none px-6 py-4 flex justify-between items-center transition-all duration-300">
+            <!-- Brand Identity -->
+            <div class="flex items-center gap-3 group">
+                <div class="w-11 h-11 rounded-xl bg-brandBlue/10 dark:bg-brandBlue/20 flex items-center justify-center text-brandBlue group-hover:scale-110 transition-transform duration-300">
+                    <i class="fa-solid fa-cow text-2xl animate-pulse"></i>
+                </div>
+                <div>
+                    <span class="text-xs font-black tracking-widest text-brandBlue block uppercase">Karachi Mandi B2B</span>
+                    <h1 class="text-lg font-extrabold tracking-tight dark:text-white translatable" data-en="GUJJAR MILK WHOLESALE" data-ur="گجر ملک ہول سیل">GUJJAR MILK WHOLESALE</h1>
+                </div>
+            </div>
+
+            <!-- Utilities Actions -->
+            <div class="flex items-center gap-3">
+                <!-- Urdu Button Custom Design -->
+                <button id="langToggle" class="relative overflow-hidden h-10 px-5 rounded-xl font-bold text-xs tracking-wider uppercase border border-slate-200 dark:border-slate-800 hover:border-brandBlue dark:hover:border-brandBlue shadow-sm transition-all duration-300 flex items-center justify-center gap-2 bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300">
+                    <i class="fa-solid fa-language text-base text-brandBlue"></i>
+                    <span id="langText">اردو</span>
+                </button>
+
+                <!-- Dark/Light Fluid Switch -->
+                <button id="themeToggle" class="w-10 h-10 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-amber-400 shadow-sm flex items-center justify-center transition-all duration-300 hover:scale-105">
+                    <i class="fa-solid fa-moon dark:hidden text-lg"></i>
+                    <i class="fa-solid fa-sun hidden dark:block text-lg"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Stage -->
+    <section class="relative pt-36 pb-24 overflow-hidden milk-gradient">
+        <!-- Abstract Modern Background Blobs -->
+        <div class="absolute top-1/4 left-1/10 w-96 h-96 bg-brandBlue/10 rounded-full blur-3xl animate-float"></div>
+        <div class="absolute bottom-1/4 right-1/10 w-80 h-80 bg-sky-300/20 dark:bg-sky-900/10 rounded-full blur-3xl animate-float" style="animation-delay: 3s;"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-slate-900 shadow-sm text-xs font-semibold text-brandBlue border border-sky-100 dark:border-slate-800 mb-6 tracking-wide uppercase">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                <span class="translatable" data-en="Live From Karachi Mandi Supply Chain" data-ur="کراچی منڈی سپلائی چین سے براہ راست">Live From Karachi Mandi Supply Chain</span>
+            </span>
+            <h2 class="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white tracking-tight mb-6 leading-[1.15] translatable" data-en="Premium Wholesale Milk,<br>Calculated Instantly On Daily Market Rates" data-ur="پریمیم ہول سیل دودھ،<br>روزانہ مارکیٹ ریٹ پر فوری حساب کتاب">
+                Premium Wholesale Milk,<br>Calculated Instantly On Daily Market Rates
+            </h2>
+            <p class="text-base sm:text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed translatable" data-en="Pure, unadulterated farm-fresh milk supplied across Karachi. Enter your required volume in Maunds or Kilograms below to sync live market evaluation." data-ur="پورے کراچی میں فراہم کیا جانے والا خالص، ملاوٹ سے پاک فارم کا تازہ دودھ۔ لائیو مارکیٹ کی قیمت جاننے کے لیے نیچے من یا کلوگرام میں اپنی مطلوبہ مقدار درج کریں۔">
+                Pure, unadulterated farm-fresh milk supplied across Karachi. Enter your required volume in Maunds or Kilograms below to sync live market evaluation.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#control-center" class="px-8 py-4 rounded-xl bg-brandBlue hover:bg-sky-600 text-white font-bold tracking-wide transition-all duration-300 shadow-lg shadow-sky-400/20 hover:shadow-xl hover:-translate-y-0.5 translatable" data-en="Open Live Dashboard" data-ur="لائیو ڈیش بورڈ کھولیں">Open Live Dashboard</a>
+                <a href="#news-hub" class="px-8 py-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-bold tracking-wide transition-all duration-300 hover:bg-slate-50 dark:hover:bg-slate-800/50 shadow-sm translatable" data-en="Read Local News" data-ur="مقامی خبریں پڑھیں">Read Local News</a>
+            </div>
+        </div>
+
+        <!-- Wave Aesthetic Graphic at bottom -->
+        <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-[0]">
+            <svg class="relative block w-full h-12 text-milkCream dark:text-slate-950" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Main Operational Control Center -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-16 relative z-20" id="control-center">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Mandi Market Rate Monitor -->
+            <section class="lg:col-span-5 bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-100 dark:border-slate-800/60">
+                <div class="flex items-center justify-between mb-8">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-500">
+                            <i class="fa-solid fa-chart-line text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-sm translatable" data-en="Mandi Intelligence" data-ur="منڈی انٹیلیجنس">Mandi Intelligence</h3>
+                            <p class="text-xs text-slate-400 translatable" data-en="Real-time wholesale updates" data-ur="ریئل ٹائم ہول سیل اپڈیٹس">Real-time wholesale updates</p>
+                        </div>
+                    </div>
+                    <span class="text-[11px] font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-950/40 dark:text-emerald-400 px-3 py-1 rounded-full uppercase tracking-wider">
+                        <i class="fa-solid fa-circle-nodes mr-1 animate-pulse"></i><span class="translatable" data-en="Active" data-ur="فعال">Active</span>
+                    </span>
+                </div>
+
+                <div class="bg-slate-50 dark:bg-slate-950 rounded-2xl p-6 border border-slate-100 dark:border-slate-900 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1 translatable" data-en="Market Pricing Timestamp" data-ur="مارکیٹ قیمت کی تاریخ">Market Pricing Timestamp</span>
+                        <div class="text-base font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                            <i class="fa-regular fa-calendar-check text-brandBlue"></i>
+                            <span id="liveDate">June 22, 2026</span>
+                        </div>
+                    </div>
+
+                    <div class="h-[1px] bg-slate-200 dark:bg-slate-800/60"></div>
+
+                    <!-- Mun Pricing Struct -->
+                    <div class="group">
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1 translatable" data-en="Price Per Maund (من)" data-ur="قیمت فی من (40 کلو)">Price Per Maund (من)</span>
+                        <div class="flex items-baseline gap-2">
+                            <span class="text-3xl font-black text-slate-900 dark:text-white tracking-tight">Rs. 8,600</span>
+                            <span class="text-xs text-slate-400 font-medium translatable" data-en="Official Mandi Open" data-ur="آفیشل منڈی اوپن">Official Mandi Open</span>
+                        </div>
+                    </div>
+
+                    <!-- Kg Pricing Struct -->
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-1 translatable" data-en="Wholesale Equivalent" data-ur="ہول سیل برابر قیمت">Wholesale Equivalent</span>
+                        <div class="flex items-baseline gap-2">
+                            <span class="text-xl font-bold text-brandBlue">Rs. 215</span>
+                            <span class="text-xs text-slate-400 font-medium translatable" data-en="Per Kilogram (Kg)" data-ur="فی کلوگرام (Kg)">Per Kilogram (Kg)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 flex items-center gap-3 p-4 bg-sky-500/5 rounded-xl border border-sky-500/10 text-xs text-sky-600 dark:text-sky-400">
+                    <i class="fa-solid fa-circle-info text-base"></i>
+                    <p class="leading-normal translatable" data-en="Standard trade conversion metric: 1 Maund (من) equals exactly 40 Kilograms." data-ur="معیاری تجارتی تبادلہ: 1 من بالکل 40 کلوگرام کے برابر ہوتا ہے۔">Standard trade conversion metric: 1 Maund (من) equals exactly 40 Kilograms.</p>
+                </div>
+            </section>
+
+            <!-- Advanced Enterprise B2B Calculator & Ordering Hub -->
+            <section class="lg:col-span-7 bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-100 dark:border-slate-800/60 relative overflow-hidden">
+                <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brandBlue to-emerald-400"></div>
+                
+                <div class="flex items-center gap-3 mb-8">
+                    <div class="w-10 h-10 rounded-xl bg-brandBlue/10 flex items-center justify-center text-brandBlue">
+                        <i class="fa-solid fa-calculator text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-extrabold text-slate-900 dark:text-white uppercase tracking-tight text-sm translatable" data-en="Procurement Engine" data-ur="خریداری انجن">Procurement Engine</h3>
+                        <p class="text-xs text-slate-400 translatable" data-en="Configure volumes and compute valuations" data-ur="مقدار منتخب کریں اور قیمت معلوم کریں">Configure volumes and compute valuations</p>
+                    </div>
+                </div>
+
+                <!-- Input Grid block -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                    <div class="relative">
+                        <label class="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2 translatable" data-en="Volume in Maund (من)" data-ur="مقدار (من میں)">Volume in Maund (من)</label>
+                        <div class="relative">
+                            <input type="number" id="inputMun" min="0" value="0" class="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:border-brandBlue focus:ring-2 focus:ring-brandBlue/10 rounded-xl px-4 py-3.5 font-bold outline-none transition-all duration-200 text-lg">
+                            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">MUN</span>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <label class="block text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-2 translatable" data-en="Loose Volume (Kgs)" data-ur="باقیماندہ مقدار (کلو میں)">Loose Volume (Kgs)</label>
+                        <div class="relative">
+                            <input type="number" id="inputKg" min="0" max="39" value="0" class="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 focus:border-brandBlue focus:ring-2 focus:ring-brandBlue/10 rounded-xl px-4 py-3.5 font-bold outline-none transition-all duration-200 text-lg">
+                            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400">KGS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Evaluation Output Screen -->
+                <div class="bg-slate-900 dark:bg-slate-950 rounded-2xl p-6 text-white mb-8 shadow-inner relative overflow-hidden">
+                    <div class="absolute -right-6 -bottom-6 text-slate-800/40 text-7xl font-black pointer-events-none select-none">B2B</div>
+                    <span class="text-[10px] tracking-widest uppercase text-slate-400 font-extrabold block mb-4 translatable" data-en="Itemized Invoice Preview" data-ur="تفصیلی انوائس پیش نظارہ">Itemized Invoice Preview</span>
+                    
+                    <div class="space-y-3 relative z-10 text-sm">
+                        <div class="flex justify-between border-b border-slate-800 pb-2">
+                            <span class="text-slate-400 translatable" data-en="Total Net Weight Cumulative:" data-ur="کل مجموعی وزن:">Total Net Weight Cumulative:</span>
+                            <span class="font-mono font-bold"><span id="outKgs">0</span> kg</span>
+                        </div>
+                        <div class="flex justify-between items-baseline pt-2">
+                            <span class="text-slate-400 font-bold text-xs uppercase tracking-wider translatable" data-en="Gross Valuation Amount:" data-ur="کل تخمینی رقم:">Gross Valuation Amount:</span>
+                            <span class="text-2xl sm:text-3xl font-black text-emerald-400 font-mono">Rs. <span id="outCost">0</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Dispatch Button -->
+                <button onclick="sendOrder()" class="w-full bg-whatsappGreen hover:bg-emerald-600 text-white font-extrabold py-4 rounded-xl text-sm tracking-wider uppercase transition-all duration-300 shadow-lg shadow-emerald-500/20 hover:shadow-xl hover:-translate-y-0.5 flex justify-center items-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-xl animate-bounce-slow"></i>
+                    <span class="translatable" data-en="Transmit Order to WhatsApp" data-ur="واٹس ایپ پر آرڈر منتقل کریں">Transmit Order to WhatsApp</span>
+                </button>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modern News Section Layout -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="news-hub">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-10 gap-4">
+            <div>
+                <h3 class="text-xl sm:text-2xl font-black tracking-tight text-slate-900 dark:text-white translatable" data-en="Karachi Dairy Intelligence News" data-ur="کراچی ڈیری انٹیلیجنس نیوز">Karachi Dairy Intelligence News</h3>
+                <p class="text-sm text-slate-500 dark:text-slate-400 translatable" data-en="Stay ahead of market shifts, price regulatory updates, and supply chain updates" data-ur="مارکیٹ کی تبدیلیوں، ریگولیٹری اپڈیٹس اور سپلائی چین کی خبروں سے باخبر رہیں">Stay ahead of market shifts, price regulatory updates, and supply chain updates</p>
+            </div>
+            <div class="h-[1px] flex-grow bg-slate-200 dark:bg-slate-800 hidden sm:block mx-6"></div>
+            <span class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest whitespace-nowrap"><i class="fa-regular fa-clock mr-1.5"></i>Updated June 2026</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- News Entry 1 -->
+            <article class="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-md shadow-slate-100/60 dark:shadow-none border border-slate-100 dark:border-slate-800/60 group hover:shadow-xl transition-all duration-300">
+                <div class="h-44 overflow-hidden relative bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Karachi Milk Pricing">
+                    <div class="absolute top-3 left-3 bg-brandBlue text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md">Regulation</div>
+                </div>
+                <div class="p-6">
+                    <h4 class="font-extrabold text-base text-slate-900 dark:text-white mb-2 leading-snug group-hover:text-brandBlue transition-colors translatable" data-en="Karachi Commissioner Directs Retail Stabilization Cap at Rs. 240/Litre" data-ur="کمشنر کراچی کا ریٹیل قیمت 240 روپے فی لیٹر پر برقرار رکھنے کا حکم">Karachi Commissioner Directs Retail Stabilization Cap at Rs. 240/Litre</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-3 translatable" data-en="Strict administrative checking protocols enforce stable retail thresholds at entry nodes across the metropolitan zone following discussions with primary dairy bodies." data-ur="بنیادی ڈیری اداروں کے ساتھ بات چیت کے بعد پورے شہر کے داخلی راستوں پر سخت انتظامی چیکنگ پروٹوکول کے ذریعے ریٹیل قیمتوں کو مستحکم رکھنے کا نفاذ کیا جا رہا ہے۔">Strict administrative checking protocols enforce stable retail thresholds at entry nodes across the metropolitan zone following discussions with primary dairy bodies.</p>
+                </div>
+            </article>
+
+            <!-- News Entry 2 -->
+            <article class="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-md shadow-slate-100/60 dark:shadow-none border border-slate-100 dark:border-slate-800/60 group hover:shadow-xl transition-all duration-300">
+                <div class="h-44 overflow-hidden relative bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Fodder logistics">
+                    <div class="absolute top-3 left-3 bg-amber-500 text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md">Logistics</div>
+                </div>
+                <div class="p-6">
+                    <h4 class="font-extrabold text-base text-slate-900 dark:text-white mb-2 leading-snug group-hover:text-brandBlue transition-colors translatable" data-en="Fodder and Transportation Infrastructure Metrics Dynamic Shift Impacting Mandi Openings" data-ur="چارے اور ٹرانسپورٹیشن کے اخراجات منڈی کے ریٹ پر اثر انداز">Fodder and Transportation Infrastructure Metrics Dynamic Shift Impacting Mandi Openings</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-3 translatable" data-en="Wholesale dealers observe market pricing variables closely as changing inbound supply routing costs project shifts in next quarter's baseline opening rates." data-ur="ہول سیل ڈیلرز مارکیٹ کی قیمتوں کا باریک بینی سے مشاہدہ کر رہے ہیں کیونکہ سپلائی روٹنگ کے بدلتے ہوئے اخراجات اگلی سہ ماہی کے بنیادی ریٹس پر اثر انداز ہو سکتے ہیں۔">Wholesale dealers observe market pricing variables closely as changing inbound supply routing costs project shifts in next quarter's baseline opening rates.</p>
+                </div>
+            </article>
+
+            <!-- News Entry 3 -->
+            <article class="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-md shadow-slate-100/60 dark:shadow-none border border-slate-100 dark:border-slate-800/60 group hover:shadow-xl transition-all duration-300">
+                <div class="h-44 overflow-hidden relative bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1628206109919-450b7b154013?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Quality controls">
+                    <div class="absolute top-3 left-3 bg-emerald-500 text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-md">Compliance</div>
+                </div>
+                <div class="p-6">
+                    <h4 class="font-extrabold text-base text-slate-900 dark:text-white mb-2 leading-snug group-hover:text-brandBlue transition-colors translatable" data-en="Sindh Food Authority Amplifies Screening Arrays at Interprovincial Entry Checkpoints" data-ur="سندھ فوڈ اتھارٹی نے بین الصوبائی انٹری پوائنٹس پر چیکنگ سخت کر دی">Sindh Food Authority Amplifies Screening Arrays at Interprovincial Entry Checkpoints</h4>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-3 translatable" data-en="Advanced digital diagnostic testing systems configured at city border structures ensure total purity verification parameters for bulk tankers entering Karachi wholesale markets." data-ur="شہر کے سرحدی راستوں پر جدید ترین ڈیجیٹل تشخیصی ٹیسٹنگ سسٹم لگائے گئے ہیں تاکہ کراچی ہول سیل مارکیٹوں میں داخل ہونے والے ٹینکرز کی مکمل پاکیزگی کی تصدیق کی جا سکے۔">Advanced digital diagnostic testing systems configured at city border structures ensure total purity verification parameters for bulk tankers entering Karachi wholesale markets.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 dark:bg-slate-950 text-slate-400 border-t border-slate-800 py-12 text-center text-xs">
+        <div class="max-w-7xl mx-auto px-4 space-y-4">
+            <h4 class="text-base font-extrabold text-white tracking-wider uppercase translatable" data-en="Gujjar Milk Wholesales" data-ur="گجر ملک ہول سیل">Gujjar Milk Wholesales</h4>
+            <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-300 py-2">
+                <span><i class="fa-brands fa-whatsapp text-emerald-400 mr-1.5"></i>0312 0000682</span>
+                <span><i class="fa-solid fa-location-dot text-brandBlue mr-1.5"></i>Karachi, Pakistan</span>
+            </div>
+            <p class="text-slate-500">© 2026 Gujjar Milk Wholesales. Built for high-scale enterprise dairy supply management operations.</p>
+        </div>
+    </footer>
+
+    <!-- Frontend Functional Core Engine -->
+    <script>
+        const WHOLESALE_KG_RATE = 215; 
+        const WEIGHT_UNITS_PER_MAUND = 40;
+
+        const inputMaunds = document.getElementById('inputMun');
+        const inputKilograms = document.getElementById('inputKg');
+        const outputTotalKgs = document.getElementById('outKgs');
+        const outputTotalCost = document.getElementById('outCost');
+        
+        let activeUrduState = false;
+
+        // Auto Sync Live Device Localized String Calendar Parameters
+        const calendarConfig = { month: 'long', day: 'numeric', year: 'numeric' };
+        document.getElementById('liveDate').innerText = new Date().toLocaleDateString('en-US', calendarConfig);
+
+        // Core Mathematical Processing Algorithms
+        function computeWholesaleValues() {
+            const structuralMaunds = parseFloat(inputMaunds.value) || 0;
+            const structuralKgs = parseFloat(inputKilograms.value) || 0;
+            
+            const totalAggregatedKgs = (structuralMaunds * WEIGHT_UNITS_PER_MAUND) + structuralKgs;
+            const cumulativeFinancialValuation = totalAggregatedKgs * WHOLESALE_KG_RATE;
+            
+            outputTotalKgs.innerText = totalAggregatedKgs;
+            outputTotalCost.innerText = cumulativeFinancialValuation.toLocaleString();
+        }
+
+        inputMaunds.addEventListener('input', computeWholesaleValues);
+        inputKilograms.addEventListener('input', computeWholesaleValues);
+
+        // Instant End-to-End Encrypted WhatsApp Order Structuring Engine
+        function sendOrder() {
+            const valMaunds = parseFloat(inputMaunds.value) || 0;
+            const valKgs = parseFloat(inputKilograms.value) || 0;
+            
+            if (valMaunds === 0 && valKgs === 0) {
+                alert(activeUrduState ? "براہ کرم پہلے مقدار درج کریں!" : "Execution Error: Please specify quantities before dispatching.");
+                return;
+            }
+
+            const computationTotalKgs = (valMaunds * WEIGHT_UNITS_PER_MAUND) + valKgs;
+            const computationTotalCost = computationTotalKgs * WHOLESALE_KG_RATE;
+            
+            let messageTemplate = "";
+            if (activeUrduState) {
+                messageTemplate = `*السلام علیکم گجر ملک ہول سیلز*\n\nمیں منڈی کے موجودہ ریٹ پر آرڈر دینا چاہتا ہوں:\n\n• *من (Maunds):* ${valMaunds}\n• *کلوگرام (Loose Kgs):* ${valKgs}\n• *کل مجموعی وزن:* ${computationTotalKgs} کلو\n• *ریٹ:* 215 روپے فی کلو\n• *کل تخمینی رقم:* Rs. ${computationTotalCost.toLocaleString()}\n\nبراہ کرم اس آرڈر کی تصدیق کریں۔ شکریہ!`;
+            } else {
+                messageTemplate = `*B2B Order Manifest | Gujjar Milk Wholesales*\n\nProcessing digital dispatch configuration:\n\n• *Maund Volume (من):* ${valMaunds}\n• *Loose Weight (Kgs):* ${valKgs}\n• *Total Compiled Weight:* ${computationTotalKgs} kg\n• *Mandi Rate Profile:* Rs. 215/kg\n• *Gross Financial Valuation:* Rs. ${computationTotalCost.toLocaleString()}\n\nPlease verify and confirm allocation tracking.`;
+            }
+            
+            const productionEndpoint = `https://wa.me/923120000682?text=${encodeURIComponent(messageTemplate)}`;
+            window.open(productionEndpoint, '_blank');
+        }
+
+        // Language Localization Mechanism
+        document.getElementById('langToggle').addEventListener('click', function() {
+            activeUrduState = !activeUrduState;
+            document.body.classList.toggle('urdu-active', activeUrduState);
+            document.getElementById('langText').innerText = activeUrduState ? "English" : "اردو";
+            
+            document.querySelectorAll('.translatable').forEach(nodeElement => {
+                const structuralTargetValue = activeUrduState ? nodeElement.getAttribute('data-ur') : nodeElement.getAttribute('data-en');
+                if(nodeElement.tagName === 'H2' || nodeElement.tagName === 'H1') {
+                    nodeElement.innerHTML = structuralTargetValue;
+                } else {
+                    nodeElement.innerText = structuralTargetValue;
+                }
+            });
+        });
+
+        // Theme Interlock Mechanism
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>
